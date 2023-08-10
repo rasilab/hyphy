@@ -1,4 +1,4 @@
-# Docker build for HISAT2
+# Docker build for HYPHY
 
 See [Dockerfile](./Dockerfile) for the build details.
 
