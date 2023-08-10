@@ -1,3 +1,3 @@
-FROM continuumio/miniconda3:4.12.0
+FROM ghcr.io/rasilab/python:1.0.0
 
-RUN conda install -c bioconda hisat2=2.2.1
+RUN mamba install -y -c bioconda -c conda-forge hyphy
